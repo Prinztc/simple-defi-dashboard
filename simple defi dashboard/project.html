@@ -1,0 +1,25 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple DeFi Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🦊 DeFi Dashboard</h1>
+    <button id="connectButton">Connect Wallet</button>
+
+    <div id="dashboard" class="hidden">
+      <p><strong>Wallet:</strong> <span id="walletAddress"></span></p>
+      <ul>
+        <li>ETH Balance: <span id="ethBalance">0</span> ETH</li>
+        <li>DAI Balance: <span id="daiBalance">0</span> DAI</li>
+        <li>USDC Balance: <span id="usdcBalance">0</span> USDC</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

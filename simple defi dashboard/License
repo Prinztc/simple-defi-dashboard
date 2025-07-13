@@ -1,0 +1,37 @@
+
+---
+
+### 📤 GitHub Upload Instructions
+
+1. Create a new GitHub repo: `simple-defi-dashboard`
+2. Add files:
+   - `index.html`
+   - `style.css`
+   - `main.js`
+   - `README.md`
+3. Commit + push:
+
+```bash
+git init
+git add .
+git commit -m "Initial commit: Simple DeFi Dashboard"
+git branch -M main
+git remote add origin https://github.com/your-username/simple-defi-dashboard.git
+git push -u origin main
+
+
+
+
+
+
+
+cd path/to/simple-defi-dashboard
+git init
+git add .
+git commit -m "Initial commit: Simple DeFi Dashboard"
+
+# Replace this URL with your real GitHub repo link:
+git remote add origin https://github.com/your-username/simple-defi-dashboard.git
+
+git branch -M main
+git push -u origin main
